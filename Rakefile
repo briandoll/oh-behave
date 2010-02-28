@@ -5,13 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "oh-behave"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{oh-behave provides a DSL for testing actual user behavior of a web application, using Google Analytics}
+    gem.description = %Q{Write tests to confirm how users are interacting with your web app, s you don't have to keep manually checing your assumptions in Google Analytics}
     gem.email = "brian@emphaticsolutions.com"
     gem.homepage = "http://github.com/briandoll/oh-behave"
     gem.authors = ["Brian Doll"]
+    gem.add_runtime_dependency "garb", ">= 0.7.0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

@@ -1,0 +1,22 @@
+h1. oh-behave
+
+"This feature will drive conversion up 10%!"  Have you heard that before?  Did you frantically check Google Analytics every day for weeks to see how you're doing?
+
+oh-behave provides a DSL to express real-world user behavior tests that run against your Google Analytics account.  Run oh-behave regularly to report on important business metrics and get notified when you start slipping.
+
+_This gem is a work in progress and doesn't do much at all at the moment.  I'm interested in working on building DSLs in Ruby and this tool seems to be a good fit._
+
+Interaction with the Google Analytics API is done through "garb":http://github.com/vigetlabs/garb.
+
+h2. Note on Patches/Pull Requests
+ 
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a future version unintentionally.
+* Commit, do not mess with rakefile, version, or history.
+  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+h2. Copyright
+
+Copyright (c) 2010 Brian Doll. See LICENSE for details.
